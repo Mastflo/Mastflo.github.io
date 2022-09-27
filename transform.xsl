@@ -4,7 +4,7 @@
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:foaf="http://xmlns.com/foaf/0.1/" >
   <xsl:output method="html" indent="yes" />
-  <xsl:template match="rdf:RDF/foaf:Person">
+  <xsl:template match="rdf:RDF/foaf:Person/foaf:knows">
   <html>
   <body>
   <h2>Ma présentation</h2>
@@ -23,5 +23,4 @@
   </body>
   </html>
 </xsl:template>
-
 </xsl:stylesheet> 
