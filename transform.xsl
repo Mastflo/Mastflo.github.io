@@ -8,20 +8,15 @@
   <html>
   <body>
   <h2>Ma présentation</h2>
-  <table border="1">
-    <tr bgcolor="#9acd32">
-      <th>Name</th>
-      <th>Title</th>
-      <th>GivenName</th>
-      <th>Family Name</th>
-    </tr>
-    <tr>
-      <td><xsl:value-of select="foaf:name"/></td>
-      <td><xsl:value-of select="foaf:title"/></td>
-      <td><xsl:value-of select="foaf:givenname"/></td>
-      <td><xsl:value-of select="foaf:family_name"/></td>
-    </tr>
-  </table>
+  <h2>
+      name: <xsl:value-of select="foaf:name" />
+    </h2>
+    <h1>
+      gender: <xsl:value-of select="foaf:gender" />
+    </h1>
+    <h1>
+      mbox_sha1sum: <xsl:value-of select="foaf:mbox_sha1sum" />
+    </h1>
   </body>
   </html>
 </xsl:template>
