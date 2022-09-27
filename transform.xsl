@@ -17,6 +17,9 @@
     <h1>
       mbox_sha1sum: <xsl:value-of select="foaf:mbox_sha1sum" />
     </h1>
+    <h1>
+        lien vers la page de Tristan : <xsl:value-of select="rdfs:seeAlso" />
+    </h1>
   </body>
   </html>
 </xsl:template>

@@ -13,5 +13,6 @@
 <foaf:homepage rdf:resource="https://mastflo.github.io/"/>
 <foaf:workplaceHomepage rdf:resource="https://www.maif.fr/"/>
 <foaf:schoolHomepage rdf:resource="https://www.univ-larochelle.fr/"/>
+<rdfs:seeAlso rdf:resource="https://tristan-chauveau.github.io/foaf.rdf" />
 </foaf:Person>
 </rdf:RDF>
