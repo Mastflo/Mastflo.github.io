@@ -18,7 +18,11 @@
       mbox_sha1sum: <xsl:value-of select="foaf:mbox_sha1sum" />
     </h1>
     <h1>
-        lien vers la page de Tristan : <xsl:value-of select="rdfs:seeAlso" />
+        lien vers la page de Tristan : <xsl:for-each select="rdfs:seeAlso">
+          <xsl:text>link: </xsl:text>
+          <xsl:value-of select="@rdf:resource"/>
+          <br />
+        </xsl:for-each>
     </h1>
   </body>
   </html>
