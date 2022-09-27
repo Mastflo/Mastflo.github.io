@@ -15,14 +15,12 @@
       <th>GivenName</th>
       <th>Family Name</th>
     </tr>
-    <xsl:for-each select="foaf:Person">
     <tr>
       <td><xsl:value-of select="foaf:name"/></td>
       <td><xsl:value-of select="foaf:title"/></td>
       <td><xsl:value-of select="foaf:givenname"/></td>
       <td><xsl:value-of select="foaf:family_name"/></td>
     </tr>
-    </xsl:for-each>
   </table>
   </body>
   </html>
